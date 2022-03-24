@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(73, 72, 72);
+  margin: 0px;
+}
+h1 {
+  padding: 15px;
+  margin: 0px 0px 0px 0px;
+  background-color: white;
+  height: 10vh;
+  text-align: center;
+  font-size: 48px;
+}
+.sampleKey {
+  display: grid;
+  max-width: 15rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5rem auto;
+  justify-items: center;
+  gap: 5px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.loopB {
+  display: flex;
+  margin: -20rem 10rem;
+  padding: 50px;
+}
+
+.sampleKey button {
+  font-size: 2rem;
+  padding: 5px;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 3px whitesmoke;
+}
+
+.sampleKeypressed {
+  background-color: rgb(102, 102, 102);
+}
+
+.composer {
+  display: flex;
+  flex-direction: column;
+  max-width: 20vw;
+  margin: -2rem auto;
+  align-content: center;
+  gap: 5px;
+}
+
+.composer input {
+  padding: 10px 5px 10px 5px;
+}
+
+.composer button {
+  padding: 5px;
+  font-size: 1.2rem;
+}
